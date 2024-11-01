@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My PWA App</title>
+    <link rel="manifest" href="manifest.json">
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        iframe {
+            width: 100%;
+            height: 100vh;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+    <iframe src="https://script.google.com/macros/s/AKfycbyng245ZBwbq2tBnypeGB3LvBRN0QFH-i-F-iIH-k9GHGaiOiIIKhLXB6wXyW3AAQ-k/exec"></iframe>
+    <script src="service-worker.js"></script>
+</body>
+</html>
